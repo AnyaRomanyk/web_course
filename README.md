@@ -1,1 +1,1 @@
-file:///C:/Users/Admin/Desktop/course/index.html
+https://anyaromanyk.github.io/web_course/course
