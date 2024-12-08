@@ -1,1 +1,1 @@
-https://anyaromanyk.github.io/web_course/course/
+https://anyaromanyk.github.io/web_course/course
