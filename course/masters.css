@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f1e7;
+    color: #5b3a29;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d8b89e;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #5b3a29;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffffff;
+}
+
+#masters {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #5b3a29;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #5b3a29;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    color: #5b3a29;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.service-group {
+    margin-bottom: 40px;
+}
+
+.masters-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.master-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.master-card img {
+    width: 150px;
+    height: 210px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.master-card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5b3a29;
+    margin: 10px 0;
+}
+
+.master-card .role {
+    font-size: 14px;
+    color: #d8b89e;
+    margin-bottom: 10px;
+}
+
+.master-card p {
+    font-size: 14px;
+    color: #5b3a29;
+}
+
+footer {
+    background-color: #5b3a29;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+footer .footer-content p {
+    margin: 0;
+    font-size: 14px;
+}

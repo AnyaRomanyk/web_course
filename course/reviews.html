@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="masters.html">Masters</a></li>
+                <li><a href="price.html">Price</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="booking.html">Book Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="reviews-section">
+        <h2>Customer Reviews</h2>
+
+        <div id="reviews">
+            <div class="review-box">
+                <h3>Hairdressing Services</h3>
+                <p><strong>Rating: 9/10</strong></p>
+                <p><strong>Service:</strong> Haircuts, styling, color treatments, balayage</p>
+                <p><strong>Master:</strong> Top Master</p>
+                <p><em>"Absolutely amazing service! My hair has never looked better. Highly recommend!"</em></p>
+            </div>
+
+            <div class="review-box">
+                <h3>Manicure Services</h3>
+                <p><strong>Rating: 8/10</strong></p>
+                <p><strong>Service:</strong> Nail art, gel manicures, pedicures, French manicure</p>
+                <p><strong>Master:</strong> Junior Master</p>
+                <p><em>"Great experience, the nails look wonderful! The staff was friendly and professional."</em></p>
+            </div>
+
+            <div class="review-box">
+                <h3>Makeup Services</h3>
+                <p><strong>Rating: 10/10</strong></p>
+                <p><strong>Service:</strong> Wedding makeup, special event makeup, contouring, smokey eyes</p>
+                <p><strong>Master:</strong> Top Master</p>
+                <p><em>"I felt like a queen on my wedding day! The makeup was flawless and lasted all day."</em></p>
+            </div>
+
+            <div class="review-box">
+                <h3>Eyebrow Services</h3>
+                <p><strong>Rating: 7/10</strong></p>
+                <p><strong>Service:</strong> Eyebrow shaping, threading, microblading, henna brows</p>
+                <p><strong>Master:</strong> Junior Master</p>
+                <p><em>"Good service, but I think I need a bit more shaping next time. Overall, it was okay."</em></p>
+            </div>
+
+            <div class="review-box">
+                <h3>Beautician Services</h3>
+                <p><strong>Rating: 9/10</strong></p>
+                <p><strong>Service:</strong> Facial treatments, skin rejuvenation, anti-aging procedures</p>
+                <p><strong>Master:</strong> Top Master</p>
+                <p><em>"My skin has never looked this good! I feel so refreshed and rejuvenated after the treatment."</em></p>
+            </div>
+
+            <div class="review-box">
+                <h3>Massage Services</h3>
+                <p><strong>Rating: 8/10</strong></p>
+                <p><strong>Service:</strong> Deep tissue massage, sports massage, relaxation massage</p>
+                <p><strong>Master:</strong> Junior Master</p>
+                <p><em>"Very relaxing! The massage was soothing, but I would have liked a bit more pressure."</em></p>
+            </div>
+        </div>
+
+        <div class="review-form">
+            <h3>Leave a Review</h3>
+            <form id="review-form">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="rating">Rating (1-10):</label>
+                <input type="number" id="rating" name="rating" min="1" max="10" required>
+
+                <label for="service">Service:</label>
+                <select id="service" name="service" required>
+                    <option value="Hairdressing Services">Hairdressing Services</option>
+                    <option value="Manicure Services">Manicure Services</option>
+                    <option value="Makeup Services">Makeup Services</option>
+                    <option value="Eyebrow Services">Eyebrow Services</option>
+                    <option value="Beautician Services">Beautician Services</option>
+                    <option value="Massage Services">Massage Services</option>
+                </select>
+
+                <label for="master">Master:</label>
+                <select id="master" name="master" required>
+                    <option value="Top Master">Top Master</option>
+                    <option value="Junior Master">Junior Master</option>
+                </select>
+
+                <label for="review">Your Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="reviews.js"></script>
+</body>
+</html>

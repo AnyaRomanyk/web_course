@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="masters.html">Masters</a></li>
+                <li><a href="price.html">Price</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="booking.html">Book Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="booking">
+        <h2>Book Your Appointment</h2>
+        <form class="booking-form">
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="">Select Service</option>
+                <option value="Hairdressing Services">Hairdressing Services</option>
+                <option value="Manicure Services">Manicure Services</option>
+                <option value="Makeup Services">Makeup Services</option>
+                <option value="Eyebrow Services">Eyebrow Services</option>
+                <option value="Beautician Services">Beautician Services</option>
+                <option value="Massage Services">Massage Services</option>
+            </select>
+
+            <label for="master">Select Master:</label>
+            <select id="master" name="master" required onchange="loadServiceDetails()">
+                <option value="">Select Master</option>
+                <option value="Top Master">Top Master</option>
+                <option value="Junior Master">Junior Master</option>
+            </select>
+
+            <label for="service-detail">Select Service Detail:</label>
+            <select id="service-detail" name="service-detail" required>
+                <option value="">Select Service Detail</option>
+            </select>
+
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required />
+
+            <label for="time">Select Time (09:00 - 21:00):</label>
+            <input type="time" id="time" name="time" min="09:00" max="21:00" required />
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p class="contact-info">
+                <span>&copy; 2024 Glam Salon</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="booking.js"></script>
+</body>
+</html>
